@@ -1,1 +1,1 @@
-0 20 * * * /Users/chadooo/Desktop/ToMe/python/QiiNotiY/script.sh
+0 20 * * * /Users/QiiNotiY/script.sh
