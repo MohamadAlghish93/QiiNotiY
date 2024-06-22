@@ -60,7 +60,7 @@ def read_online_html_and_search_id(url, element_id):
 
             if (result > 95):
                 print("Send notifcation")
-                url = "https://api.telegram.org/bot6800893466:AAGwwvB358ZcLELioW_6cilYoV7YQ8oBkCc/sendMessage"
+                url = "https://api.telegram.org/bot6800893466:[bot_token]/sendMessage"
                 params = {'chat_id': -847131721, 'text': f'Yii Here {result}'}
                 response = send_get_request(url, params)
                 if response and response.headers.get('Content-Type') == 'application/json; charset=utf-8':
